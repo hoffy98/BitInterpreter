@@ -1,0 +1,18 @@
+nav {
+	border: 1px solid red;
+	text-align: center;
+	h1 {
+		font-family: $pixel-font;
+		@include lt-md {
+			font-size: 5vw;
+		}
+		@include gt-sm {
+			font-size: 48px;
+		}
+	}
+}
+
+footer {
+	border: 1px solid green;
+	text-align: center;
+}

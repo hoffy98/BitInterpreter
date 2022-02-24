@@ -1,0 +1,25 @@
+@import "reset";
+@import "variables";
+@import "media";
+
+@import "../components/components";
+
+html,
+body,
+#__next {
+	height: 100%;
+	font-family: $primary-font;
+}
+
+#Layout {
+	height: 100%;
+	max-width: $screen-md-min;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex-grow: 1;
+}
